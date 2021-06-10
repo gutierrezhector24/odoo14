@@ -24,7 +24,7 @@
                                         <field name="name"/>
                                         <field name="instructor_id"/>
                                     </tree>
-                                </field>
+                                </field> 
                             </page>
                         </notebook>    
                     </sheet>
