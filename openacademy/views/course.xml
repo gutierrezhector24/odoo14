@@ -43,4 +43,16 @@
             </field>
         </record>    
 
+        <!-- course tree/list view -->
+       <record model="ir.ui.view" id="course_tree_view">
+           <field name="name">course.tree</field>
+           <field name="model">openacademy.course</field>
+           <field name="arch" type="xml">
+               <tree string="Course Tree">
+                   <field name="name"/>
+                   <field name="responsible_id"/>
+               </tree>
+           </field>
+       </record>
+
 </odoo>
