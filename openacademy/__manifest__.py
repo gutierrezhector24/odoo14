@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 {
     'name': "Open Academy",
 
@@ -28,6 +29,7 @@
         'views/openacademy.xml',
         'views/course.xml',
         'views/session.xml',
+        'views/partner.xml'
     ],
     # only loaded in demonstration mode
     'demo': [
